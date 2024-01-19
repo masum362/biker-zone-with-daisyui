@@ -36,9 +36,9 @@
     </style>
 </head>
 
-<body class="lg:px-20 px-2">
+<body>
     <!-- head -->
-    <header>
+    <header class="lg:px-20 px-2">
         <div class="navbar bg-base-100 mx-auto md:flex  py-6 px-0">
             <div class="navbar-start ">
                 <div class="dropdown">
@@ -77,7 +77,7 @@
         </div>
     </header>
     <!-- main -->
-    <main>
+    <main class="lg:px-20 px-2">
         <section>
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
@@ -272,7 +272,7 @@
 
         <section class="py-12 flex flex-col items-center justify-center gap-12 lg:gap-4 text-center">
             <h1 class="text-5xl font-semibold">
-                Frequently Asked Questions
+                Frequently Asked <span class="text-theme-color">Questions</span>
             </h1>
             <div class="flex flex-col lg:flex-row items-center gap-12 justify-between">
                 <figure>
@@ -332,8 +332,27 @@
 
     </main>
 
-    <footer>
-
+    <footer class="bg-black text-white flex flex-col lg:flex-row justify-between text-center lg:text-start p-2 lg:px-20 lg:py-12">
+        <div class="flex flex-col  items-center lg:items-start gap-4">
+            <div class="flex gap-8">
+                <p>Download Now</p>
+                <p>License</p>
+            </div>
+            <div class="flex gap-8 flex-wrap items-center lg:items-start justify-center">
+                <p>About</p>
+                <p>Features</p>
+                <p>Pricing</p>
+                <p>Careers</p>
+                <p>Help</p>
+                <p>Privacy Policy</p>
+            </div>
+            <p>© 2020 bike. All rights reserved</p>
+        </div>
+        <div class="flex flex-col gap-8 items-center">
+            <p class="text-xl">Get the App</p>
+            <img src="./images/others/android.png" alt="" class="w-1/2">
+            <img src="./images/others/ios.png" alt="" class="w-1/2">
+        </div>
     </footer>
 
 
